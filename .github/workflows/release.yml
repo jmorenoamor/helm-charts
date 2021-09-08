@@ -1,4 +1,4 @@
-name: Release Charts
+name: Release charts
 
 on:
   push:
@@ -7,6 +7,7 @@ on:
 
 jobs:
   release:
+    name: Release charts
     runs-on: ubuntu-latest
     steps:
       -
